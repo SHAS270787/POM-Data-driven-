@@ -1,0 +1,13 @@
+{
+    "name": "playwright-pom-ddt",
+   "scripts": {
+  "test": "cucumber-js --require-module ts-node/register --require ./steps/**/*.ts --require ./support/**/*.ts"
+},
+    "dependencies": {
+        "@cucumber/cucumber": "^12.2.0",
+        "@playwright/test": "^1.55.0",
+        "playwright": "^1.55.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    }
+}
